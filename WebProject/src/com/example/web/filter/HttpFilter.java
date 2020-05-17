@@ -1,4 +1,4 @@
-package com.example.web;
+package com.example.web.filter;
 
 import javax.servlet.*;
 import javax.servlet.http.HttpServletRequest;
@@ -21,7 +21,6 @@ public class HttpFilter implements Filter {
      */
     public FilterConfig getFilterConfig() {
         return this.filterConfig;
-        
     }
 
     @Override

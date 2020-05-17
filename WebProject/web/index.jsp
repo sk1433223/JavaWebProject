@@ -11,6 +11,9 @@
     <title>$Title$</title>
   </head>
   <body>
+  <%
+    application.setAttribute("name","小白");
+  %>
   $END$
   </body>
 </html>
